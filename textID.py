@@ -3,21 +3,15 @@ import math
 from collections import Counter
 from collections import defaultdict
 from porter import create_stem
-# makeWordLengths(self): should use the text in self.text to create the self.wordlengths dictionary.
-# makeWords(self): should use the text in self.text to create the self.words dictionary.
-# makeStems(self): should use the text in self.text to create the self.stems dictionary.
-# makeMyParameter(s): should use the text in self.text to create the myparameter dictionary. This one is up to you (we used punctuation—feel free to use that or something else...!)
-# This "other feature" isn't needed for the milestone, but it is needed for the final version. Note that you should choose a better name than myparameter!
-# Be sure to have a milestone.txt that includes a short (3-4 sentence) reflection on how the project has gone so far (and what still remains, if anything!).
+PUNC = '.!?'
 
 #
 # textmodel.py
 #
-# TextModel project!
+# TextModel project! This project uses Python to develop a statistical model of text that will allow you to "ID" an author or style. It is a form of stylometry
+# that uses Bayesian Classification.
 #
 # Name(s): Saya Kim-Suzuki, Laney Goldman and Rohan Subramanian
-PUNC = '.!?'
-
 
 class TextModel:
     """A class supporting complex models of text."""
